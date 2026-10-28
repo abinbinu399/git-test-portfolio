@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>abin</title>
+    <title>Software Architect Portfolio</title>
 </head>
-<body>
-    
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #0f172a; color: #f8fafc; line-height: 1.6;">
+
+    <!-- Navigation Bar -->
+    <nav style="display: flex; justify-content: space-between; align-items: center; padding: 1.5rem 5%; background-color: rgba(15, 23, 42, 0.9); position: sticky; top: 0; z-index: 1000; border-bottom: 1px solid #1e293b;">
+        <div style="font-size: 1.5rem; font-weight: bold; color: #38bdf8;">Architect.dev</div>
+        <div style="display: flex; gap: 2rem;">
+            <a href="#about" style="color: #cbd5e1; text-decoration: none; transition: color 0.3s;">About</a>
+            <a href="#skills" style="color: #cbd5e1; text-decoration: none; transition: color 0.3s;">Skills</a>
+            <a href="#hobbies" style="color: #cbd5e1; text-decoration: none; transition: color 0.3s;">Hobbies</a>
+            <a href="#contact" style="color: #cbd5e1; text-decoration: none; transition: color 0.3s;">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 8rem 2rem; background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);">
+        <h1 style="font-size: 3.5rem; margin-bottom: 1rem; color: #f8fafc;">Hi, I'm a <span style="color: #38bdf8;">Software Architect</span></h1>
+        <p style="font-size: 1.25rem; color: #94a3b8; max-width: 600px; margin-bottom: 2rem;">Designing scalable systems, robust architectures, and data-driven solutions from Calicut.</p>
+        <a href="#contact" style="background-color: #38bdf8; color: #0f172a; padding: 0.75rem 2rem; font-size: 1rem; font-weight: bold; text-decoration: none; border-radius: 5px; box-shadow: 0 4px 14px rgba(56, 189, 248, 0.4);">Contact Me</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" style="padding: 5rem 10%; background-color: #1e293b;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem; color: #38bdf8; text-align: center;">About Me</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 3rem; justify-content: center; align-items: center;">
+            <div style="flex: 1; min-width: 280px; font-size: 1.1rem; color: #cbd5e1;">
+                <p style="margin-bottom: 1rem;">I am a dedicated Software Architect based in <strong>Calicut</strong>, specializing in designing and structuring high-performance enterprise applications.</p>
+                <p style="margin-bottom: 1rem;">With a strong academic background holding a <strong>BSc in Data Science</strong>, I bridge the gap between complex data structures and scalable software engineering, ensuring systems are both intelligent and resilient.</p>
+            </div>
+            <div style="flex: 1; min-width: 280px; background-color: #0f172a; padding: 2rem; border-radius: 8px; border: 1px solid #334155;">
+                <h3 style="color: #f8fafc; margin-bottom: 1rem;">Quick Overview</h3>
+                <ul style="list-style: none; padding: 0; color: #94a3b8;">
+                    <li style="margin-bottom: 0.75rem;">📍 <strong>Location:</strong> Calicut</li>
+                    <li style="margin-bottom: 0.75rem;">🎓 <strong>Education:</strong> BSc Data Science</li>
+                    <li style="margin-bottom: 0.75rem;">💼 <strong>Profession:</strong> Software Architecture</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" style="padding: 5rem 10%; background-color: #0f172a;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 3rem; color: #38bdf8; text-align: center;">Technical Skills</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 2rem;">
+            <!-- Skill 1 -->
+            <div style="background-color: #1e293b; padding: 2rem; border-radius: 8px; text-align: center; border: 1px solid #334155;">
+                <h3 style="color: #38bdf8; margin-bottom: 1rem;">MERN Stack</h3>
+                <p style="color: #94a3b8; font-size: 0.95rem;">MongoDB, Express.js, React, Node.js for building dynamic full-stack web applications.</p>
+            </div>
+            <!-- Skill 2 -->
+            <div style="background-color: #1e293b; padding: 2rem; border-radius: 8px; text-align: center; border: 1px solid #334155;">
+                <h3 style="color: #38bdf8; margin-bottom: 1rem;">Python</h3>
+                <p style="color: #94a3b8; font-size: 0.95rem;">Leveraged for backend systems, data analytics pipelines, and machine learning integration.</p>
+            </div>
+            <!-- Skill 3 -->
+            <div style="background-color: #1e293b; padding: 2rem; border-radius: 8px; text-align: center; border: 1px solid #334155;">
+                <h3 style="color: #38bdf8; margin-bottom: 1rem;">PHP</h3>
+                <p style="color: #94a3b8; font-size: 0.95rem;">Experienced in developing robust server-side scripting and enterprise web solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" style="padding: 5rem 10%; background-color: #1e293b;">
+        <h2 style="font-size: 2.5rem; margin-bottom: 3rem; color: #38bdf8; text-align: center;">Hobbies & Interests</h2>
+        <div style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap;">
+            <div style="background-color: #0f172a; padding: 2rem; border-radius: 8px; width: 280px; text-align: center; border: 1px solid #334155;">
+                <h3 style="color: #f8fafc; margin-bottom: 0.75rem;">✈️ Travel</h3>
+                <p style="color: #94a3b8; font-size: 0.95rem;">Exploring new landscapes, discovering diverse cultures, and gaining fresh perspectives.</p>
+            </div>
+            <div style="background-color: #0f172a; padding: 2rem; border-radius: 8px; width: 280px; text-align: center; border: 1px solid #334155;">
+                <h3 style="color: #f8fafc; margin-bottom: 0.75rem;">💻 Coding</h3>
+                <p style="color: #94a3b8; font-size: 0.95rem;">Building open-source tools, experimenting with clean code paradigms, and side projects.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact CTA Section -->
+    <section id="contact" style="padding: 6rem 10%; text-align: center; background: linear-gradient(135deg, #1e1b4b 0%, #0f172a 100%);">
+        <h2 style="font-size: 2.5rem; margin-bottom: 1rem; color: #f8fafc;">Let's Build Something Great Together</h2>
+        <p style="color: #94a3b8; max-width: 500px; margin: 0 auto 2rem auto;">Have a project in mind or want to discuss system architecture? Feel free to reach out.</p>
+        <a href="mailto:contact@example.com" style="background-color: #38bdf8; color: #0f172a; padding: 1rem 2.5rem; font-size: 1.1rem; font-weight: bold; text-decoration: none; border-radius: 5px; display: inline-block; box-shadow: 0 4px 14px rgba(56, 189, 248, 0.4);">Contact Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer style="padding: 2rem; text-align: center; background-color: #0b0f19; color: #64748b; font-size: 0.9rem; border-top: 1px solid #1e293b;">
+        <p>&copy; 2026 Software Architect Portfolio. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
